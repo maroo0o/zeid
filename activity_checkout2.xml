@@ -1,0 +1,84 @@
+<!-- res/layout/activity_checkout.xml -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+
+        <!-- Cart Items List -->
+        <TextView
+            android:id="@+id/textViewCartItemsCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cart Items:"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Sample Cart Item (Replace this with a RecyclerView for dynamic items) -->
+
+        <!-- Total Price -->
+
+        <!-- Delivery Address -->
+
+        <!-- Payment Method Spinner -->
+
+        <!-- Card Number -->
+        <TextView
+            android:id="@+id/textViewCartItemCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewCartItemsCheckout"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="8dp"
+            android:text="1. Item Name - $10.00" />
+
+        <TextView
+            android:id="@+id/textViewTotalPriceCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewCartItemCheckout"
+            android:layout_marginTop="74dp"
+            android:layout_marginBottom="16dp"
+            android:text="Total: $10.00"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/textViewTotalPriceCheckout"
+            android:layout_marginTop="60dp"
+            android:hint="Delivery Address" />
+
+        <Spinner
+            android:id="@+id/spinnerPaymentMethod"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/editTextAddress"
+            android:layout_marginTop="90dp" />
+
+        <EditText
+            android:id="@+id/editTextCardNumber"
+            android:layout_width="395dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/spinnerPaymentMethod"
+            android:layout_marginTop="48dp"
+            android:hint="Card Number" />
+
+        <!-- Checkout Button -->
+        <Button
+            android:id="@+id/buttonPlaceOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:layout_below="@id/editTextCardNumber"
+            android:layout_marginTop="16dp"/>
+    </RelativeLayout>
+
+</ScrollView>

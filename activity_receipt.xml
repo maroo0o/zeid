@@ -1,0 +1,52 @@
+<!-- res/layout/activity_receipt.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Header -->
+    <!-- Receipt Details -->
+
+    <!-- Download Button -->
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receipt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewHeader"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Product: Item 1\nPrice: $10.00\nQuantity: 2\nTotal: $20.00" />
+
+    <TextView
+        android:id="@+id/addressdetails"
+        android:layout_width="105dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/textViewDetails"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/carddetails"
+        android:layout_width="103dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/addressdetails"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDetails"
+        android:layout_marginTop="137dp"
+        android:text="Download Receipt" />
+</RelativeLayout>

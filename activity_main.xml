@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:id="@+id/iconCartHome"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/baseline_shopping_cart_24"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Cart Icon"/>
+
+        <ImageView
+            android:id="@+id/iconSearchHome"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/baseline_search_24"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_toLeftOf="@id/iconCart"
+            android:contentDescription="Search Icon"/>
+
+        <ImageView
+            android:id="@+id/iconSignInHome"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/baseline_account_circle_24"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_toLeftOf="@id/iconSearchHome"
+            android:contentDescription="Sign In Icon"/>
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/photo1701215785"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_toLeftOf="@id/iconSignInHome"
+            android:contentDescription="Home Icon"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- Image Views and Texts (Example: Replace with your content) -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="675dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo1701093668" />
+
+            <Button
+                android:id="@+id/buttonShopMenHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="119dp"
+                android:text="Shop men " />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="671dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo1701093841" />
+
+            <Button
+                android:id="@+id/buttonShopWomenHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="119dp"
+                android:text="Shop women " />
+
+            <!-- Add more Image Views and Texts as needed -->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

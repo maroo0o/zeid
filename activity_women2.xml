@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/baseline_shopping_cart_24"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_toLeftOf="@id/iconSignInHome"
+            android:contentDescription="Home Icon"/>
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/test1"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo1701102031" />
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productNameWomen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="black t-shirt"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Product Description -->
+        <TextView
+            android:id="@+id/productDescriptionWomen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="t-shirt"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="short sleeve true religion black t-shirt for women."
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Price -->
+        <TextView
+            android:id="@+id/productPriceWomen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: $49.99"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Sizes -->
+        <RadioGroup
+            android:id="@+id/radioGroupSizeWomens1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:layout_marginStart="16dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:layout_marginStart="16dp"/>
+        </RadioGroup>
+
+        <!-- Buy Now Button -->
+        <Button
+            android:id="@+id/buyNowButtonWomen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"/>
+
+
+        <!-- Product Image 2-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="478dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo1701101956" />
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productNameWomen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="black t-shirt"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Product Description -->
+        <TextView
+            android:id="@+id/productDescriptionWomen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="short sleeve true religion white t-shirt for women."
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Price -->
+        <TextView
+            android:id="@+id/productPriceWomen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: $39.99"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Sizes -->
+        <RadioGroup
+            android:id="@+id/radioGroupSizes2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeS2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeM2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:layout_marginStart="16dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeL2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:layout_marginStart="16dp"/>
+        </RadioGroup>
+
+        <!-- Buy Now Button -->
+        <Button
+            android:id="@+id/buyNowButtonWomen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"/>
+        <!-- Product Image 3-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo1701106736" />
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productNameWomen3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="t-shirt"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Product Description -->
+        <TextView
+            android:id="@+id/productDescriptionWomen3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="short sleeve true religion black t-shirt for women"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Price -->
+        <TextView
+            android:id="@+id/productPriceWomen3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: $49.99"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Sizes -->
+        <RadioGroup
+            android:id="@+id/radioGroupSizesWomen3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rs2s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"/>
+
+            <RadioButton
+                android:id="@+id/rs2m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:layout_marginStart="16dp"/>
+
+            <RadioButton
+                android:id="@+id/rs2l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:layout_marginStart="16dp"/>
+        </RadioGroup>
+
+        <!-- Buy Now Button -->
+        <Button
+            android:id="@+id/buyNowButtonWomen3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+</ScrollView>

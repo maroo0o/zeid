@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/baseline_shopping_cart_24"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_toLeftOf="@id/iconSignInHome"
+            android:contentDescription="Home Icon"/>
+
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/productImage1"
+            android:layout_width="match_parent"
+            android:layout_height="583dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo1701099435" />
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="t-shirt"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Product Description -->
+        <TextView
+            android:id="@+id/productDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="short sleeve true religion black t-shirt for men."
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Price -->
+        <TextView
+            android:id="@+id/productPrice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: $39.99"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Sizes -->
+        <RadioGroup
+            android:id="@+id/radioGroupSizes1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeS1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeM1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:layout_marginStart="16dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeL1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:layout_marginStart="16dp"/>
+        </RadioGroup>
+
+        <!-- Buy Now Button -->
+        <Button
+            android:id="@+id/buyNowButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"/>
+
+
+    <!-- Product Image 2-->
+        <ImageView
+            android:id="@+id/productImage2"
+            android:layout_width="match_parent"
+            android:layout_height="478dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo1701093668" />
+
+    <!-- Product Name -->
+    <TextView
+        android:id="@+id/productName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="black t-shirt"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Product Description -->
+    <TextView
+        android:id="@+id/productDescription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="short sleeve true religion white-blue t-shirt for men."
+        android:layout_marginTop="8dp"/>
+
+    <!-- Product Price -->
+    <TextView
+        android:id="@+id/productPrice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price: $39.99"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Product Sizes -->
+    <RadioGroup
+        android:id="@+id/radioGroupSizes2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonSizeS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonSizeM2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:layout_marginStart="16dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonSizeL2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:layout_marginStart="16dp"/>
+    </RadioGroup>
+
+    <!-- Buy Now Button -->
+    <Button
+        android:id="@+id/buyNowButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy Now"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+        <!-- Product Image 3-->
+
+        <ImageView
+            android:id="@+id/productImage3"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo1701101915" />
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="t-shirt"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Product Description -->
+        <TextView
+            android:id="@+id/productDescription3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="short sleeve true religion black t-shirt for men."
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Price -->
+        <TextView
+            android:id="@+id/productPrice3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: $59.99"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Product Sizes -->
+        <RadioGroup
+            android:id="@+id/radioGroupSizes3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeS3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeM3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:layout_marginStart="16dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonSizeL3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:layout_marginStart="16dp"/>
+        </RadioGroup>
+
+        <!-- Buy Now Button -->
+        <Button
+            android:id="@+id/buyNowButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+</ScrollView>
